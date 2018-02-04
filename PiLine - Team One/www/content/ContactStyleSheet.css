@@ -1,0 +1,263 @@
+﻿h1 {
+    font-size: 1em;
+    font-weight: bold;
+    line-height: auto;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.3em;
+    font-weight: bold;
+    line-height: auto;
+    margin: 0 0 0.25em;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: bold;
+    line-height: auto;
+    margin: 0 0 0.25em;
+}
+
+p {
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.5em;
+    margin: 0 0 1em;
+}
+
+body {
+    background-color: #000;
+    font-family: 'Fira Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+nav {
+    display: block;
+}
+
+.navMenu {
+    width: 120px;
+    background-color: #111;
+    height: 97%;
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto;
+    border: solid;
+    border-color: black;
+}
+
+.navMenu_Centre {
+    text-align: center !important;
+}
+
+.navMenu__list {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    display: block;
+}
+
+    .navMenu__list li {
+        margin-top: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: block;
+        background-color: #000;
+        color: white;
+    }
+
+        .navMenu__list li a {
+            text-decoration: none;
+            color: white;
+        }
+
+            .navMenu__list li a:hover {
+                padding: 20px;
+                color: black;
+                background-color: #fff;
+            }
+
+.navMenu__Logo {
+    margin-top: 10px;
+}
+
+.site-content {
+    max-width: 86%;
+    max-height: 20%;
+    margin-left: 8.3%;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-color: black;
+    background-color: #333;
+}
+
+.site-content__Headline {
+    max-width: 86%;
+    max-height: 20%;
+    margin-left: 8.3%;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200;
+    color: #ffffff;
+    font-size: calc(2vw + 10px);
+}
+
+.site-content_Introduction {
+    max-width: 86%;
+    max-height: 20%;
+    margin-left: 8.3%;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-color: black;
+    background-color: #222;
+}
+
+.site-content__IntroductionText {
+    max-width: 86%;
+    max-height: 20%;
+    margin-left: 8.3%;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.site-content_RobertCormicanHead {
+    width: 86%;
+    height: 20%;
+    margin-top: 5%;
+    margin-left: 8.3%;
+    float: left;
+    display: inline-block;
+    border: solid;
+    border-color: black;
+    background-color: #333;
+    border-radius: 10px;
+    -webkit-box-shadow: #979ea1 0px 3px 0px;
+    -moz-box-shadow: #979ea1 0px 3px 0px;
+    box-shadow: #979ea1 0px 3px 0px;
+}
+
+.site-content__RobertCormicanHeadline {
+    max-width: 86%;
+    max-height: 20%;
+    margin-left: 8.3%;
+    margin-right: auto;
+    float:left;
+    display: block;
+    font-weight: 200;
+    color: #ffffff;
+    font-size: calc(2vw + 10px);
+}
+
+.site-content_RobertCormican_ImageContainer {
+    width: 86%;
+    height: 140px;
+    margin-left: 8.3%;
+    display:block;
+    float:left;
+    border: solid;
+    border-color: black;
+    background-color: #222;
+    border-radius: 10px;
+    -webkit-box-shadow: #979ea1 0px 3px 0px;
+    -moz-box-shadow: #979ea1 0px 3px 0px;
+    box-shadow: #979ea1 0px 3px 0px;
+}
+
+.site-content_RobertCormicanTwitterPicture {
+    float:left;
+    display:flex;
+    height: 100%;
+    width: 100%;
+    margin-left:25%;
+}
+
+.site-content_RobertCormicanYoutubePicture {
+    float: right;
+    display: flex;
+    height: 100%;
+    width: 100%; 
+    margin-right:25%;
+}
+
+.site-content_TrevorGilmartinHead {
+    width: 86%;
+    height: 20%;
+    margin-top: 5%;
+    margin-left: 8.3%;
+    float: left;
+    display: inline-block;
+    border: solid;
+    border-color: black;
+    background-color: #333;
+    border-radius: 10px;
+    -webkit-box-shadow: #979ea1 0px 3px 0px;
+    -moz-box-shadow: #979ea1 0px 3px 0px;
+    box-shadow: #979ea1 0px 3px 0px;
+}
+
+.site-content__TrevorGilmartinHeadline {
+    max-width: 86%;
+    max-height: 20%;
+    margin-left: 8.3%;
+    margin-right: auto;
+    float: left;
+    display: block;
+    font-weight: 200;
+    color: #ffffff;
+    font-size: calc(2vw + 10px);
+}
+
+.site-content_TrevorGilmartin_ImageContainer {
+    width: 86%;
+    height: 140px;
+    margin-left: 8.3%;
+    position: relative;
+    display: inline-block;
+    border: solid;
+    border-color: black;
+    background-color: #222;
+    border-radius: 10px;
+    -webkit-box-shadow: #979ea1 0px 3px 0px;
+    -moz-box-shadow: #979ea1 0px 3px 0px;
+    box-shadow: #979ea1 0px 3px 0px;
+}
+
+.site-content_TrevorGilmartinTwitterPicture {
+    float: left;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-left: 5%;
+}
+
+.site-content_TrevorGilmartinGithubPicture {
+    float: left;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-left: 30%;
+}
+
+.site-content_TrevorGilmartinFacebookPicture {
+    float: right;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-right: 5%;
+}
+

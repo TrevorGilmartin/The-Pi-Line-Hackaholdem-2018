@@ -1,0 +1,244 @@
+﻿h1 {
+    font-size: 1em;
+    font-weight: bold;
+    line-height: auto;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.3em;
+    font-weight: bold;
+    line-height: auto;
+    margin: 0 0 0.25em;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: bold;
+    line-height: auto;
+    margin: 0 0 0.25em;
+}
+
+p {
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.5em;
+    margin: 0 0 1em;
+}
+
+body {
+    background-color: #000;
+    font-family: 'Fira Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+nav {
+    display: block;
+}
+
+.navMenu {
+    width: 120px;
+    background-color: #111;
+    height: 97%;
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto;
+    border: solid;
+    border-color: black;
+}
+
+.navMenu_Centre {
+    text-align: center !important;
+}
+
+.navMenu__list {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    display: block;
+}
+
+    .navMenu__list li {
+        margin-top: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: block;
+        background-color: #000;
+        color: white;
+    }
+
+        .navMenu__list li a {
+            text-decoration: none;
+            color: white;
+        }
+
+            .navMenu__list li a:hover {
+                padding: 20px;
+                color: black;
+                background-color: #fff;
+            }
+
+.navMenu__Logo {
+    margin-top: 10px;
+}
+
+.site-content {
+    max-width: 86%;
+    max-height: 20%;
+    margin-left: 8.3%;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-color: black;
+    background-color: #333;
+}
+
+.site-content__Headline {
+    max-width: 86%;
+    max-height: 20%;
+    margin-left: 8.3%;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200;
+    color: #ffffff;
+    font-size: calc(2vw + 10px);
+}
+
+.site-content_Introduction {
+    max-width: 86%;
+    max-height: 20%;
+    margin-left: 8.3%;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-color: black;
+    background-color: #222;
+}
+
+.site-content__IntroductionText {
+    max-width: 86%;
+    max-height: 20%;
+    margin-left: 8.3%;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.site-content_PictureHolding {
+    max-width: 86%;
+    max-height: 20%;
+    margin-left: 8.3%;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: dotted;
+    border-color: white;
+    background-color: #111;
+}
+
+.site-content_Picture{
+    max-height:10%;
+    max-width:10%
+}
+
+.sit-content_TheLose {
+    max-width: 28%;
+    max-height: 20%;
+    margin-left: 8.3%;
+    margin-right: auto;
+    float:left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-color: black;
+    background-color: #222;
+}
+
+.site-content_TheLoseText {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    color: #ffffff;
+    padding:5%
+}
+
+.sit-content_TheReveal {
+    max-width: 57%;
+    max-height: 100%;
+    margin-left: 8.3%;
+    margin-right: auto;
+    float: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-color: black;
+    background-color: #555;
+    border-radius: 10px;
+    padding: 5px;
+    -webkit-box-shadow: #979ea1 0px 3px 0px;
+    -moz-box-shadow: #979ea1 0px 3px 0px;
+    box-shadow: #979ea1 0px 3px 0px;
+}
+
+.site-content_RevealText {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    color: #ffffff;
+    font-size: calc(2vw + 10px);
+    padding:20px;
+    border:double;
+    border-color:white;
+    border-radius: 10px
+}
+
+.site-content_Conclusion {
+    max-width: 86%;
+    max-height: 20%;
+    margin-left: 8.3%;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-color: black;
+    background-color: #222;
+}
+
+.site-content__ConclusionText {
+    max-width: 86%;
+    max-height: 20%;
+    margin-left: 8.3%;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    color: #ffffff;
+}
